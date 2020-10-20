@@ -36,8 +36,8 @@
       body {
         font-style: 'Domine', serif;
         color:black;
-        background-color: #ef8495;
-        padding-top: 200px;
+        background-color: #e6e7e9;
+        padding-top: 300px;
       }
 
       .vertical-center {
@@ -68,86 +68,56 @@
 
       .list-group-item:hover {
         color: black;
-        background-color: #ef8495;
-        text-decoration: ;
+        background-color: #e6e7e9;
+      }
+
+      .navbar {
+        height: 30%;
+        background-color: black;
+      }
+
+      #nav-banner {
+        height: 100%;
+        width: 100%;
+        background: url("img/nosso-vereador-bg-black.jpg");
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 150px;
+      }
+
+      .card {
+        margin-bottom: 5px;
+      }
+
+      @media (min-width: 300px) {
+        main {
+          margin-top: 0px;
+        }
+      }
+      @media (min-width: 992px) {
+        main {
+          margin-top: 100px;
+        }
+      }
+      @media (min-width: 1200px) {
+        main {
+          margin-top: 100px;
+        }
       }
     </style>
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-none py-0 fixed-top" style="background-color: white;">
-        <div class="pull-left">
-          <a class="navbar-brand py-0" href="#">
-            <img
-              src="img/no-bg.png"
-              alt=""
-            />
-            <div class="pull-left ">
-              <h1 style="color: white; " class="vertical-center">
-                <strong style="font-size: 50px; font-family: 'Archivo Black', sans-serif; text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;">ODAIR JOSÉ</strong>
-              </h1>
-              <h2 style="color: #fff9af; font-family: 'Archivo Black', sans-serif; text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;" class="float-right">
-                O NOSSO VEREADOR
-              </h2>
-            </div>
-          </a>
-        </div>
-
-        <div class="container d-flex justify-content-center" style="color: #fef118;">
-          <h1 class="font-italic" style="font-family: 'Archivo Black', sans-serif; font-size: 100px; text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;">
-            70123
-          </h1>
-        </div>
-        
-        <!-- Container wrapper -->
-        <div class="container">
-          
-          <!-- Toggle button -->
-          <button
-            class="navbar-toggler ml-auto mr-auto"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <!-- Collapsible wrapper -->
-          <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
-            <!-- Social icons -->
-            <ul class="navbar-nav d-flex flex-row ml-auto mb-2 mb-lg-0" style="align-items: center; justify-content: center;">
-              <!-- Icons -->
-              <li class="nav-item mr-3 mr-lg-0">
-                <a class="nav-link" href="#">
-                  <img src="img/facebook.png" />
-                </a>
-              </li>
-              <li class="nav-item mr-3 mr-lg-0">
-                <a class="nav-link" href="#">
-                  <img src="img/twitter.png" />
-                </a>
-              </li>
-              <li class="nav-item mr-3 mr-lg-0">
-                <a class="nav-link" href="#">
-                  <img src="img/instagram.png" />
-                </a>
-              </li>
-            </ul>
-          </div>
-          <!-- Collapsible wrapper -->
-        </div>
-        <!-- Container wrapper -->
+      <nav class="navbar navbar-default fixed-top" >
+        <div id="nav-banner"></div>
       </nav>
     </div>
-      <!-- Background image -->
     </header>
-    <main class="my-5 p-5 text-center" style="background-color: #ef8495;">
-    <div class="row" style="height: 700px;">
-      <div class="col-sm h-100">
-        <div class="card h-100"">
+    <main class="p-3 text-center" style="background-color: #e6e7e9;" style="margin-top: 700px">
+    <div class="row">
+      <div class="col-sm">
+        <div class="card">
           <div class="card-header">
             <h1 class="mt-3">SOU <strong>VOCÊ</strong>!</h1>
           </div>
@@ -158,12 +128,6 @@
             <p>
               E comigo não tem essa de negociar voto em troca de cargos ou de emendas. 
             </p>
-            <div class="container mt-5 ml-auto mr-auto row" style="height: 400px; width: 800px;">
-              <div class="col mx-auto justify-content-center">
-                <div class="h-100 fill" style="background-image: url('img/nosso-vereador-1.jpg'); background-repeat: no-repeat; background-position:center;"></div>
-              </div>
-              
-            </div>
             <a
               class="btn btn-lg m-1 mt-3"
               target="_blank" rel="noopener noreferrer"
@@ -174,17 +138,18 @@
             </a>
           </div>
         </div>
+        <img class="img-fluid mt-5 mb-5" src="img/economizou.png" />
       </div>
         
       <div class="col-sm">
-        <div class="card h-100 justify-content-center align-self-center p-5">
+        <div class="card justify-content-center align-self-center p-5">
           <p class="lead">
             Acredito nas mesmas coisas que <strong>você</strong>, tenho valores e ética como <strong>você</strong>! 
           </p>
           <p> 
             Serei <strong>você</strong> na Câmara com atuação corajosa e combativa!  
           </p>
-          <div class="col  justify-content-center">
+          <div class="col justify-content-center">
             <a target="_blank" rel="noopener noreferrer" 
             href="https://diariodeuberlandia.com.br/noticia/24548/vereadores-novatos-defendem-menos-vagas-e-salario-menor-em-uberlandia">
               <div class="h-100 fill" style="background-image: url('img/Odair.jpg'); background-repeat: no-repeat; background-position:center;">
@@ -197,10 +162,8 @@
         </div>
       </div>
     </div>
-    
-    
+        
     <div class="container">
-      
       <section class="text-center" style="margin-top: 100px;">
         <h1 class="mb-5 mt-5"><strong>ODAIR JOSÉ É LUTA, CORAGEM, É FAZER <u>MAIS</u> COM <u>MENOS</u>!</strong></h1>
         <ul class="list-group list-group-flush">
@@ -277,49 +240,47 @@
         </div>
       </section>
   
-        <!-- Section: Contact -->
-        <section id="contact" class="text-center" style="background-color: white;">
-          <h3 class="my-5"><strong>Entre em contato</strong></h3>
+      <div class="card text-center ml-auto mr-auto" style="width: 80%; margin-top: 100px;">
+        
+        <h3 class="my-5"><strong>Entre em contato</strong></h3>
+        <div class="d-flex justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <!-- Name input -->
+              <div class="form-outline mb-4">
+                <input type="text" id="form4Example1" class="form-control" style="background-color: white;"/>
+                <label class="form-label" for="form4Example1">Nome</label>
+              </div>
 
-          <div class="row d-flex justify-content-center">
-            <div class="col-md-6">
-              <form>
-                <!-- Name input -->
-                <div class="form-outline mb-4">
-                  <input type="text" id="form4Example1" class="form-control" style="background-color: white;"/>
-                  <label class="form-label" for="form4Example1">Nome</label>
-                </div>
+              <!-- Email input -->
+              <div class="form-outline mb-4">
+                <input type="email" id="form4Example2" class="form-control" />
+                <label class="form-label" for="form4Example2"
+                  >E-mail</label
+                >
+              </div>
 
-                <!-- Email input -->
-                <div class="form-outline mb-4">
-                  <input type="email" id="form4Example2" class="form-control" />
-                  <label class="form-label" for="form4Example2"
-                    >E-mail</label
-                  >
-                </div>
+              <!-- Message input -->
+              <div class="form-outline mb-4">
+                <textarea
+                  class="form-control"
+                  id="form4Example3"
+                  rows="4"
+                ></textarea>
+                <label class="form-label" for="form4Example3">Mensagem</label>
+              </div>
 
-                <!-- Message input -->
-                <div class="form-outline mb-4">
-                  <textarea
-                    class="form-control"
-                    id="form4Example3"
-                    rows="4"
-                  ></textarea>
-                  <label class="form-label" for="form4Example3">Mensagem</label>
-                </div>
-
-                <!-- Submit button -->
-                <button type="submit" class="btn btn-primary btn-block mb-4">
-                  Enviar
-                </button>
-              </form>
-            </div>
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-primary btn-block mb-4">
+                Enviar
+              </button>
+            </form>
           </div>
-        </section>
-        <!-- Section: Contact -->
+        </div>
+
+      </div>
       </div>
     </main>
-    
     
   </body>
 
