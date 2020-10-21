@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Franklin Gothic Std';
+    src: url('FranklinGothicStd-ExtraCond.woff2') format('woff2'),
+        url('FranklinGothicStd-ExtraCond.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Harvest';
+    src: url('Harvest.woff2') format('woff2'),
+        url('Harvest.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HarvestItal';
+    src: url('HarvestItal.woff2') format('woff2'),
+        url('HarvestItal.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('Merriweather-Black.woff2') format('woff2'),
+        url('Merriweather-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Palent';
+    src: url('Palent.woff2') format('woff2'),
+        url('Palent.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
